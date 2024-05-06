@@ -22,7 +22,7 @@ const SearchBox = ({ classes, currentTheme }) => {
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
 
-  // get the user data
+  //  getting the user data nad storing it in localstorage
   const getData = async (value) => {
     try {
       const response = await axios.get(`https://api.github.com/users/${value}`);
@@ -36,7 +36,7 @@ const SearchBox = ({ classes, currentTheme }) => {
     }
   };
 
-  // axios to get the repo data
+  //  getting the repo data nad storing it in localstorage
   const getRepoData = async (value) => {
     let allRepos = [];
     let page = 1;
@@ -46,7 +46,6 @@ const SearchBox = ({ classes, currentTheme }) => {
           `https://api.github.com/users/${value}/repos?page=${page}&per_page=10`
         );
         if (response.data.length === 0) {
-          // No more repositories, exit the loop
           break;
         }
         allRepos = [...allRepos, ...response.data];
