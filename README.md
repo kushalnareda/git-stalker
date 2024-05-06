@@ -2,6 +2,14 @@
 
 A full-stack app made using the GitHub API, built with React and styled using Material UI.
 
+## Demo
+
+
+https://github.com/kushalnareda/git-stalker/assets/128476254/8c828943-2f38-4aab-b79e-bf0f74be72ac
+
+
+
+
 ## Table of Contents
 
 - [Installation](#installation)
