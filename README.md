@@ -12,7 +12,7 @@ A full-stack app made using the GitHub API, built with React and styled using Ma
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/your_username/your_project.git
+   https://github.com/kushalnareda/git-stalker.git
 2. Go into the front end folder 
    ```sh
    cd frontend
