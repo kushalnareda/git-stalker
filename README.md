@@ -1,6 +1,6 @@
 # Project Name
 
-Brief description of your project.
+A full-stack app made using the GitHub API, built with React and styled using Material UI.
 
 ## Table of Contents
 
