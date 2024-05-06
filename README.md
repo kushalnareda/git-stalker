@@ -58,3 +58,8 @@ A full-stack app made using the GitHub API, built with React and styled using Ma
     - Language
     - Number of Forks
     - Number of Watchers
+- **Loading state while fetching data.**
+- **Error state in case the user is not found or if there is any other network error.**
+- **Pagination on the list of repositories.**
+- **Ability to switch between dark/light mode.**
+
