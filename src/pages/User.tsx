@@ -7,6 +7,7 @@ import AppBar from '../components/AppBar';
 import React, { useState, useEffect } from 'react';
 
 export const User = () => {
+  //making the dark mode property sticky
   const [darkMode, setDarkMode] = useState(() => {
     // Use local storage to get the theme preference, default to false (light mode)
     const savedMode = localStorage.getItem('darkMode');
