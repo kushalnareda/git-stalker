@@ -33,7 +33,7 @@ https://github.com/kushalnareda/git-stalker/assets/128476254/8c828943-2f38-4aab-
    ```sh
    npm run dev
    
-2. Open http://localhost:{$PORT)/search in your browser
+2. Open http://localhost:{$PORT) in your browser
 
 ### Technologies Used
 
