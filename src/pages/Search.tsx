@@ -43,6 +43,7 @@ export const Search = () => {
           minHeight="20vh"
           style={{ backgroundColor: "inherit", marginTop: "200px" }}
         >
+          {/* Used two different icons hard coded the colors here might change later */}
           {darkMode ? <GitIconDark /> : <GitIconLight />}
         </Box>
         <SearchBox currentTheme={currentTheme} />
