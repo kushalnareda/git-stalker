@@ -10,7 +10,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/search" element={<Search />} />
+          <Route path="/" element={<Search />} />
           <Route path="/user" element={<User />} />
           <Route path="/user404" element={<NotFoundPage />} />
         </Routes>

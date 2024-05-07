@@ -36,7 +36,7 @@ export default function AppBar2({change, check}) {
             noWrap
             style={{ fontFamily: "Lato, sans-serif" }}
             onClick={()=>{
-              navigate('/search');
+              navigate('/');
             }}
 
           >
