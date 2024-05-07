@@ -37,7 +37,7 @@ https://github.com/kushalnareda/git-stalker/assets/128476254/b12712ec-fb79-4de2-
    ```sh
    npm run dev
    
-2. Open http://localhost:{$PORT) in your browser
+2. Open http://localhost:{$PORT} in your browser
 
 ### Technologies Used
 
