@@ -5,7 +5,11 @@ A full-stack app made using the GitHub API, built with React and styled using Ma
 ## Demo
 
 
-https://github.com/kushalnareda/git-stalker/assets/128476254/8c828943-2f38-4aab-b79e-bf0f74be72ac
+
+
+https://github.com/kushalnareda/git-stalker/assets/128476254/b12712ec-fb79-4de2-b11e-3827eac01d40
+
+
 
 
 
