@@ -91,7 +91,7 @@ const SearchBox = ({ classes, currentTheme }) => {
       justifyContent="center"
       alignItems="center"
       minHeight="20vh"
-      backgroundColor={currentTheme.palette.background.paper}
+      backgroundColor="transparent"
     >
       <Box
         border={1}
