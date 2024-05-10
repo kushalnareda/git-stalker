@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { createTheme } from '@material-ui/core';
 
-const useDarkMode = () => {
+export default function useDarkMode() {
   const [darkMode, setDarkMode] = useState(() => {
     // Use local storage to get the theme preference, default to false (light mode)
     const savedMode = localStorage.getItem('darkMode');
@@ -29,5 +29,3 @@ const useDarkMode = () => {
 
   return { darkMode, setDarkMode, currentTheme };
 };
-
-export default useDarkMode;

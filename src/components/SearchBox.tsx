@@ -63,12 +63,10 @@ const SearchBox = ({ classes, currentTheme }) => {
 
   const handleChange = async (value) => {
     setInput(value);
-    setIsLoading(false);
   };
 
   const handleEnter = async (event) => {
     if (event.key === 'Enter') {
-      setIsLoading(true);
       if (input) {
         setIsLoading(true);
         setTimeout(async() => {
@@ -80,7 +78,10 @@ const SearchBox = ({ classes, currentTheme }) => {
           } else {
             navigate('/user404');
           }
-        }, 500);
+        }, 100);
+      }
+      else {
+        navigate('/');
       }
     }
   };

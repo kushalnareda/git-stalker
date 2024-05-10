@@ -59,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
         '&:hover': {
             transform: 'scale(1.005)', 
             filter: 'drop-shadow(0 0 2px #fff)', 
-          },
+        },
     },
 }));
 
@@ -68,7 +68,7 @@ export default function RepoList() {
     const classes = useStyles();
     const [page, setPage] = useState(0);
     const [rowsPerPage, setRowsPerPage] = useState(10);
-    const [rows, setRows] = useState<Data[]>([]);
+    const [rows, setRows] = useState<Data[]>([]); // empty array of data objects
 
     useEffect(() => {
         const repoDataStr = localStorage.getItem('repoData');
