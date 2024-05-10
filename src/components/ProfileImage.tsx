@@ -25,14 +25,14 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default function ImageAvatars() {
+export default function ProfileImage() {
   const classes = useStyles();
   const userDataString = localStorage.getItem('userData');
   const userData = userDataString ? JSON.parse(userDataString) : null;
 
   return (
     <div className={classes.root}>
-      <Avatar alt="Remy Sharp" src={userData.avatar_url} className={classes.large} />
+      <Avatar alt="{userData.login}" src={userData.avatar_url} className={classes.large} />
     </div>
   );
 }

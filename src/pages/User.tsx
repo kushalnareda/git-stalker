@@ -1,11 +1,12 @@
 import { Grid, Paper } from "@material-ui/core";
 import { createTheme, ThemeProvider } from "@material-ui/core/styles";
-import ImageAvatars from "../components/Profile";
+import ImageAvatars from "../components/ProfileImage";
 import RepoList from "../components/RepoList";
 import UserInfoCard from "../components/UserInfoCard";
 
 import AppBar2 from "../components/AppBar";
 import useDarkMode from "../components/UseDarkMode";
+import ProfileImage from "../components/ProfileImage";
 
 export const User = () => {
   const { darkMode, setDarkMode, currentTheme } = useDarkMode();
@@ -17,7 +18,7 @@ export const User = () => {
           <AppBar2 check={darkMode} change={() => setDarkMode(!darkMode)} />
           <Grid container spacing={1}>
             <Grid item xs={12} sm={5}>
-              <ImageAvatars />
+              <ProfileImage />
               <UserInfoCard />
             </Grid>
             <Grid item xs={12} sm={6}>
