@@ -38,7 +38,7 @@ const SearchBox = ({ classes, currentTheme }) => {
 
   //  getting the repo data nad storing it in localstorage
   const getRepoData = async (value) => {
-    let allRepos = [];
+    let allRepos : any[] = [];
     let page = 1;
     try {
       while (true) {

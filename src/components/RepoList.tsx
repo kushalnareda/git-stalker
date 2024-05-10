@@ -43,8 +43,8 @@ const useStyles = makeStyles((theme) => ({
         marginTop: 70,
         transition: 'transform 0.3s, filter 0.3s',
         '&:hover': {
-          transform: 'scale(1.005)', 
-          filter: 'drop-shadow(0 0 2px #fff)', 
+            transform: 'scale(1.005)', 
+            filter: '', 
         },
     },
     container: {
