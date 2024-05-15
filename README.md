@@ -1,4 +1,4 @@
-# Project Name
+# Git-Stalker
 
 A full-stack app made using the GitHub API, built with React and styled using Material UI.
 
